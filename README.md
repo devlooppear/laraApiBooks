@@ -63,7 +63,8 @@ FPM's architecture supports horizontal scaling, allowing you to scale your appli
 ## Data
 The focus is on Nginx, FPM, and Docker, for a good deployment and management of the infrastructure. Additionally, LaraApiBooks includes data about Books, Authors, and Categories.
 
-<img src="img/Diagram_img.png" alt="Diagram_img">
+<img src="img/Diagram_img.png" alt="Diagram_img" style="display: block; margin: auto; max-width: 100%; height: auto;">
+
 
 ### Data Model
 
