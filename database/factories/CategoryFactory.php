@@ -20,7 +20,6 @@ class CategoryFactory extends Factory
     {
         return [
             'name' => $this->faker->unique()->word,
-            // Add other fields as needed
         ];
     }
 }
