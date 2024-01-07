@@ -6,11 +6,9 @@ use App\Http\Controllers\CategoryController;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:api')->group(function () {
-
     Route::get('/user', function () {
-        return auth()->user();
+        return response()->json(auth()->user());
     });
-
 });
 
 Route::apiResource('books', BookController::class);

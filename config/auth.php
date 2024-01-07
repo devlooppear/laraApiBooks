@@ -14,7 +14,7 @@ return [
     */
 
     'defaults' => [
-        'guard' => 'api', // Set the default guard to 'api'
+        'guard' => 'api',
         'passwords' => 'users',
     ],
 
